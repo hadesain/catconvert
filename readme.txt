@@ -6,7 +6,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 0.4
+Stable tag: 1.0
 
 Adds a link under embedded video's which allows the users to convert the video to mp3, supports: Youtube, Vimeo, Metacafe and many others
 
@@ -56,4 +56,7 @@ Options include:
 - updated readme.txt
 
 = 0.4 =
+- updated readme.txt
+
+= 0.5 =
 - updated readme.txt
