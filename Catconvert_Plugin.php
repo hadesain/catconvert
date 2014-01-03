@@ -140,7 +140,7 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
         $dom = new DomDocument();
         libxml_use_internal_errors(true);
 
-        $html = mb_convert_encoding($html, 'utf-8', mb_detect_encoding($html));
+        $html = mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8');
 
         $dom->loadHtml($html);
         libxml_clear_errors();
@@ -210,7 +210,7 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             $iframe->parentNode->parentNode->appendChild($containerElement);
         }
 
-        return $dom->saveHTML();
+        return utf8_decode($dom->saveHTML());
     }
 
     function createAttribute($dom, $name, $value){
