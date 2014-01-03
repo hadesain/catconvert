@@ -139,6 +139,9 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
 
         $dom = new DomDocument();
         libxml_use_internal_errors(true);
+
+        $html = mb_convert_encoding($html, 'utf-8', mb_detect_encoding($html));
+
         $dom->loadHtml($html);
         libxml_clear_errors();
 

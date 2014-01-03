@@ -2,7 +2,7 @@
 /*
    Plugin Name: Catconvert
    Plugin URI: http://wordpress.org/extend/plugins/catconvert/
-   Version: 0.5
+   Version: 0.6
    Author: <a href="http://www.catconvert.com">Catconvert</a>
    Description: Adds a link under embedded video's which allows the users to convert the video to mp3. It supports Youtube, Vimeo, DailyMotion and many others.
    Text Domain: catconvert
