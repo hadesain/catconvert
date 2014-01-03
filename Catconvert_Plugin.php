@@ -118,6 +118,12 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
 
 
     function add_catconvert_buttons( $html ){
+        // check if html is empty.
+        if(empty($html)){
+            return $html;
+        }
+
+
         $linkCssClass = $this->getOption('LinkCssClass');
         $linkPosition = $this->getOption('LinkPosition');
         $linkText = $this->getOption('LinkText');

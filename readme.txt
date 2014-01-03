@@ -48,3 +48,6 @@ Options include:
 
 = 0.1 =
 - Initial Revision
+
+= 0.2 =
+- Fix bug which causes in some cases a ‘Warning: DOMDocument’ warning.
