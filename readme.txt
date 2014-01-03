@@ -6,9 +6,9 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 0.1
+Stable tag: 0.3
 
-Adds a download button to youtube movies
+Adds a link under embedded video's which allows the users to convert the video to mp3, supports: Youtube, Vimeo, Metacafe and many others
 
 == Description ==
 
@@ -48,6 +48,3 @@ Options include:
 
 = 0.1 =
 - Initial Revision
-
-= 0.2 =
-- Fix bug which causes in some cases a ‘Warning: DOMDocument’ warning.
