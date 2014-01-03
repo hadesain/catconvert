@@ -64,3 +64,6 @@ Options include:
 
 = 0.6 =
 - Fix issue with encoding
+
+= 0.7 =
+- Fix issue with encoding
