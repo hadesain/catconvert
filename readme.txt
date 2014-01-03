@@ -17,6 +17,7 @@ Adds a link under embedded video's which allows the users to convert the video t
 Supported Wordpress youtube plugins
 
 Currently these are a number of Youtube Wordpress plugins that we support:
+
 - Default Wordpress behavior without any wordpress plugin
 - Smart YouTube PRO
 - Viper's Video Quicktags
@@ -60,3 +61,6 @@ Options include:
 
 = 0.5 =
 - updated readme.txt
+
+= 0.6 =
+- Fix issue with encoding
