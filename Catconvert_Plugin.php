@@ -175,7 +175,7 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             $containerElement->appendChild($linkElement);
 
             if($iframe->parentNode->nodeName != 'object'){
-                $iframe->parentNode->insertBefore($containerElement, $iframe->nextSibling);
+                $iframe->parentNode->appendChild($containerElement);
             }else{
                 $iframe->parentNode->parentNode->appendChild($containerElement);
             }
