@@ -67,3 +67,6 @@ Options include:
 
 = 0.7 =
 - Fix issue with encoding
+
+= 0.8 =
+- Fix issue with css, in some cases the link would be displayed underneath the video.
