@@ -12,7 +12,7 @@ Adds a link under embedded video's which allows the users to convert the video t
 
 == Description ==
 
-CatConvert, Video to mp3 converter
+Video to mp3 converter
 
 Adds a link under embedded video's which allows the users to convert the video to mp3. It supports Youtube, Vimeo, DailyMotion and many others.
 
