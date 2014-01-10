@@ -1,7 +1,7 @@
 === Catconvert ===
 Contributors: Catconvert
 Donate link:
-Tags: Youtube, mp3, convert, converter
+Tags: youtube, video, download, mp3, converter, convert, catconvert, youtube downloader, youtube to mp3, youtube mp3, converter, youtube to mp3 converter, download youtube video, vimeo, dailymotion, facebook, instagram, vine, google, vevo, veoh, youku, mobile, tablet, download video, download mp3, embed download, embed, admin, editor, embedding, Smart YouTube PRO, viper’s video tags, YouTube embed, automatic, aute, automate, plugin, widget, seo, google, media, page, video post, url, youtuber, admin, video as mp3, download link, flash, responsive, simple, sidebar, post, links, music, show, movie, content
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.5
@@ -22,6 +22,10 @@ Currently these are a number of Youtube Wordpress plugins that we support:
 - Smart YouTube PRO
 - Viper's Video Quicktags
 - YouTube Embed
+
+Supported Sources:
+
+3sat, 8tracks, Archive.org, ARD, Arte.tv, AUEngine, Bandcamp, blip.tv, Break, Brightcove, CollegeHumor, ComedyCentral, CSpan, Dailymotion, DepositFiles, Dotsub, Escapist, Facebook, Flickr, FunnyOrDie, GameSpot, Gametrailers, Generic, HotNewHipHop, Howcast, Hypem, Ina, InfoQ, Instagram, Jukebox, Justin.tv, Keek, Liveleak, Metacafe, Mixcloud, MTV, MySpass, Myvideo, NBA, Photobucket, Plus-Google, RBMA Radio, RBMARadio, Soundcloud, Spiegel, Stanford OC, Statigram, Steam, Teamcoco, TED, TF1, TrailerAddict, Tudou, Tumblr, Tutv, ustream, Veoh, Vevo, Google Video, Vimeo, Vine, Wat.tv, Wimp, WorldStarHipHop, Yahoo, Youtube, Youku, ZDF
 
 If you are using a youtube plugin that's not supported please contact us and we will build support for it.
 
