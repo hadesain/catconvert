@@ -38,6 +38,7 @@ Options include:
 - Customize appearance of link with custom css class
 - Customize the link text
 - Set the position of the link
+- Set the plugin to run on only on certain blog-post categories
 
 == Installation ==
 
@@ -76,3 +77,6 @@ Options include:
 
 = 0.8 =
 - Fix issue with css, in some cases the link would be displayed underneath the video.
+
+= 0.9 =
+- Added support for categories, you can setup blog-post categories on which the plugin will run.

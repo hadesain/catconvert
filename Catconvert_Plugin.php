@@ -16,7 +16,8 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             'LinkText' => array(__('Enter the text the link should display, default is \'Download as mp3\'', 'catconvert')),
             'LinkPosition' => array(__('Select the position where the link should be displayed under the video', 'catconvert'), 'Left', 'Right'),
             'LinkCssClass' => array(__('Enter the css class to decorate the a-href html tag', 'catconvert')),
-            'ContainerCssClass' => array(__('Enter the css class to decorate the div containing a-href html tag', 'catconvert'))
+            'ContainerCssClass' => array(__('Enter the css class to decorate the div containing a-href html tag', 'catconvert')),
+            'Categories' => array(__('Enter the blog-post categorie(s) separated by a \',\' on which the plugin will run', 'catconvert'))
         );
     }
 
@@ -123,6 +124,27 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             return $html;
         }
 
+        $categories_enabled = $this->getOption('Categories');
+
+        if(isset($categories_enabled) && $categories_enabled != ''){
+            // check if category is supported
+            $categories_enabled = explode(",", $categories_enabled);
+            $categories = get_the_category();
+            $separator = ' ';
+            $output = '';
+            $is_enabled = false;
+            if($categories){
+                foreach($categories as $category) {
+                    if(in_array($category->name, $categories_enabled)){
+                        $is_enabled = true;
+                    }
+                }
+
+                if(!$is_enabled){
+                    return $html;
+                }
+            }
+        }
 
         $linkCssClass = $this->getOption('LinkCssClass');
         $linkPosition = $this->getOption('LinkPosition');
