@@ -20,7 +20,7 @@ Supported Wordpress youtube plugins
 
 Currently these are a number of Youtube Wordpress plugins that we support:
 
-- Default Wordpress behavior without any wordpress plugin
+- Default Wordpress behavior without any wordpress plugin (mediaelements.js is not supported yet)
 - Smart YouTube PRO
 - Viper's Video Quicktags
 - YouTube Embed
@@ -80,3 +80,6 @@ Options include:
 
 = 0.9 =
 - Added support for categories, you can setup blog-post categories on which the plugin will run.
+
+= 0.10 =
+- Made links to catconvert.com 'nofollow'.

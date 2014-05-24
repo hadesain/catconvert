@@ -187,6 +187,9 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             $linkClassAttribute = $this->createAttribute($dom, 'class', $linkCssClass);
             $linkElement->appendChild($linkClassAttribute);
 
+            $linkNoFollowAttribute = $this->createAttribute($dom, 'rel', 'nofollow');
+            $linkElement->appendChild($linkNoFollowAttribute);
+
             $linkTargetAttribute = $this->createAttribute($dom, 'target', '_blank');
             $linkElement->appendChild($linkTargetAttribute);
 
@@ -219,6 +222,9 @@ class Catconvert_Plugin extends Catconvert_LifeCycle {
             $linkElement = $dom->createElement('a', $linkText);
             $linkClassAttribute = $this->createAttribute($dom, 'class', $linkCssClass);
             $linkElement->appendChild($linkClassAttribute);
+
+            $linkNoFollowAttribute = $this->createAttribute($dom, 'rel', 'nofollow');
+            $linkElement->appendChild($linkNoFollowAttribute);
 
             $linkTargetAttribute = $this->createAttribute($dom, 'target', '_blank');
             $linkElement->appendChild($linkTargetAttribute);
